@@ -1,0 +1,19 @@
+{
+  "name": "chinafood-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Pedro-phd/chinafood-api.git",
+  "license": "MIT",
+  "scripts": {
+    "start":"nodemon src/index.js"
+  },
+  "dependencies": {
+    "apollo-server": "^2.19.2",
+    "dotenv": "^8.2.0",
+    "graphql": "^15.4.0",
+    "mongoose": "^5.11.12"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
